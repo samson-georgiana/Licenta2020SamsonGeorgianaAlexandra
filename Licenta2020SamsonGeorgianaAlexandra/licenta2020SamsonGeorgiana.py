@@ -35,7 +35,7 @@ def resize_image(
 image = cv2.imread("hair.jpg")
 image = resize_image(image)
 
-
+#https://stackoverflow.com/questions/20169137/opencv-with-python-specific-filter-not-same
 def kirsch_filter(gray):
     if gray.ndim > 2:
         raise Exception("illegal argument: input must be a single channel image (gray)")
